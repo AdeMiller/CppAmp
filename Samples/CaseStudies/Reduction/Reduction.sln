@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reduction", "Reduction.vcxproj", "{B3610A5C-240C-4130-AE3B-F799F7CC5138}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccLocalPath0 = .
+		SccLocalPath1 = .
+		SccNumberOfProjects = 2
+		SccProjectUniqueName1 = Reduction.vcxproj
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs01
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3610A5C-240C-4130-AE3B-F799F7CC5138}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B3610A5C-240C-4130-AE3B-F799F7CC5138}.Debug|Win32.Build.0 = Debug|Win32
+		{B3610A5C-240C-4130-AE3B-F799F7CC5138}.Debug|x64.ActiveCfg = Debug|x64
+		{B3610A5C-240C-4130-AE3B-F799F7CC5138}.Debug|x64.Build.0 = Debug|x64
+		{B3610A5C-240C-4130-AE3B-F799F7CC5138}.Release|Win32.ActiveCfg = Release|Win32
+		{B3610A5C-240C-4130-AE3B-F799F7CC5138}.Release|Win32.Build.0 = Release|Win32
+		{B3610A5C-240C-4130-AE3B-F799F7CC5138}.Release|x64.ActiveCfg = Release|x64
+		{B3610A5C-240C-4130-AE3B-F799F7CC5138}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

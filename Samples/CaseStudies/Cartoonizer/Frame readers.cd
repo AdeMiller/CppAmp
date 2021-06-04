@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IFrameReader">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IFrameReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageSingleFileReader" Collapsed="true">
+    <Position X="2.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAgABAwAAAAAAA=</HashCode>
+      <FileName>IFrameReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageFileFolderReader" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="2" />
+    <InheritanceLine Type="IFrameReader" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="1.603" />
+        <Point X="1.25" Y="3.062" />
+        <Point X="2.25" Y="3.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>IFrameReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VideoStreamReader" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAEAAIAAAAAAAAAIBAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>IFrameReader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

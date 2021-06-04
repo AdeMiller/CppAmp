@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chapter7", "Chapter7.vcxproj", "{E971773B-DDD3-4588-A4CB-569A7873DBDA}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccAuxPath0 = https://tfs.codeplex.com/tfs/tfs01
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccLocalPath0 = .
+		SccNumberOfProjects = 1
+		SccProjectName0 = .
+		SccProjectUniqueName0 = Chapter7.vcxproj
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs01
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E971773B-DDD3-4588-A4CB-569A7873DBDA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E971773B-DDD3-4588-A4CB-569A7873DBDA}.Debug|Win32.Build.0 = Debug|Win32
+		{E971773B-DDD3-4588-A4CB-569A7873DBDA}.Release|Win32.ActiveCfg = Release|Win32
+		{E971773B-DDD3-4588-A4CB-569A7873DBDA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pipeline">
+      <UniqueIdentifier>{2830bcee-c155-4542-b8d4-bdd7f1183989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{98b06bfc-0248-4eac-a844-d073457d8c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoCapture">
+      <UniqueIdentifier>{232c3946-046a-47cd-994c-742d32754c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class diagrams">
+      <UniqueIdentifier>{81d89917-4921-4557-885a-44f380d9fe12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ImagePipeline.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ImagePipeline.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include=".\Frame processors.cd">
+      <Filter>Class diagrams</Filter>
+    </None>
+    <None Include="Pipeline agents.cd">
+      <Filter>Class diagrams</Filter>
+    </None>
+    <None Include="Frame readers.cd">
+      <Filter>Class diagrams</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AgentBase.h">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageInfo.h">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="ImagePipeline.h">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="PipelineGovernor.h">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="CartoonizerApp.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CartoonizerDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameProcessorAmp.h" />
+    <ClInclude Include="utilities.h" />
+    <ClInclude Include="VideoBufferLock.h">
+      <Filter>VideoCapture</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoSource.h">
+      <Filter>VideoCapture</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoFormatConverter.h">
+      <Filter>VideoCapture</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoReader.h">
+      <Filter>VideoCapture</Filter>
+    </ClInclude>
+    <ClInclude Include="GdiContainer.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="AmpUtilities.h" />
+    <ClInclude Include="RgbPixel.h" />
+    <ClInclude Include="ImageResizeAgent.h">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageDisplayAgent.h">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="GdiWrap.h" />
+    <ClInclude Include="FrameProcessorAmpSingle.h" />
+    <ClInclude Include="FrameProcessorAmpMulti.h" />
+    <ClInclude Include="FrameProcessorAmpTextureSingle.h" />
+    <ClInclude Include=".\FrameProcessorCpuBase.h" />
+    <ClInclude Include="FrameProcessorCpuSingle.h" />
+    <ClInclude Include="FrameProcessorCpuMulti.h" />
+    <ClInclude Include="CartoonizerFactory.h">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include=".\ImageCartoonizerAgentBase.h">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageCartoonizerAgent.h">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageCartoonizerAgentParallel.h">
+      <Filter>Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="IFrameReader.h" />
+    <ClInclude Include="IFrameProcessor.h" />
+    <ClInclude Include="FrameProcessorFactory.h" />
+    <ClInclude Include="FrameProcessorAmpBase.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImageInfo.cpp">
+      <Filter>Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="CartoonizerApp.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CartoonizerDlg.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameProcessorAmp.cpp" />
+    <ClCompile Include="VideoFormatConverter.cpp">
+      <Filter>VideoCapture</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoReader.cpp">
+      <Filter>VideoCapture</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameProcessorAmpTextureSingle.cpp" />
+    <ClCompile Include=".\FrameProcessorCpuBase.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ImagePipeline.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

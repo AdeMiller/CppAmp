@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="INBodyAmp">
+    <Position X="2.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>INBodyAmp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBodyAmpMultiTiled&lt;TSize&gt;">
+    <Position X="4.75" Y="2.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAIAAAAAEAAAACAAAgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>NBodyAmpMultiTiled.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBodyAmpSimple">
+    <Position X="0.5" Y="2.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAEAAAAAACAAAAAAAACAIAEAAAEAAAA=</HashCode>
+      <FileName>NBodyAmpSimple.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NBodyAmpTiled&lt;TSize&gt;">
+    <Position X="2.5" Y="2.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAIAAAEAAAAAAAAAAAAAAACAIAEkAAEAAAA=</HashCode>
+      <FileName>NBodyAmpTiled.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ParticlesCpu" Collapsed="true">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAKAABIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NBodyAmp.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ParticlesAmp" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAKAAAIAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>NBodyAmp.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TaskData" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIICAAAAAAAAQAAAAAAAgAACAAgAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>NBodyAmp.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="ComputeType" Collapsed="true">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAQAAAIAAAAAAAAEEAAAAAAAAACAAAAIgAABQAA=</HashCode>
+      <FileName>NBodyGravityAmp.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

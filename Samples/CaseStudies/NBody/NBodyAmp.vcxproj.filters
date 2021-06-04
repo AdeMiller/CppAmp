@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include=".\DXUT\Core\DXUT.cpp">
+      <Filter>DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include=".\DXUT\Core\DXUTDevice11.cpp">
+      <Filter>DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include=".\DXUT\Core\DXUTDevice9.cpp">
+      <Filter>DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include=".\DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include=".\DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include=".\DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include=".\DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include=".\DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include=".\DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include=".\DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="NBodyGravityAmp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".\DXUT\Core\DXUT.h">
+      <Filter>DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include=".\DXUT\Core\DXUTDevice11.h">
+      <Filter>DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include=".\DXUT\Core\DXUTDevice9.h">
+      <Filter>DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include=".\DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include=".\DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include=".\DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include=".\DXUT\Optional\DXUTres.h">
+      <Filter>DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include=".\DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include=".\DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include=".\DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h" />
+    <ClInclude Include="NBodyAmp.h" />
+    <CLInclude Include="resource.h">
+      <Filter>UI</Filter>
+    </CLInclude>
+    <ClInclude Include="AmpUtilities.h" />
+    <ClInclude Include="NBodyAmpSimple.h" />
+    <ClInclude Include="NBodyAmpTiled.h" />
+    <ClInclude Include="NBodyAmpMultiTiled.h" />
+    <ClInclude Include="INBodyAmp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="version.rc">
+      <Filter>UI</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="NBodyGravity.rc">
+      <Filter>UI</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UI\arrow.x">
+      <Filter>UI</Filter>
+    </None>
+    <None Include="UI\dxutcontrols.dds">
+      <Filter>UI</Filter>
+    </None>
+    <None Include="UI\Font.dds">
+      <Filter>UI</Filter>
+    </None>
+    <None Include=".\DXUT\Optional\directx.ico">
+      <Filter>UI</Filter>
+    </None>
+    <None Include="UI\particle.dds">
+      <Filter>UI</Filter>
+    </None>
+    <None Include="ParticleDrawGpu.hlsl">
+      <Filter>UI</Filter>
+    </None>
+    <None Include=".\Main.cd">
+      <Filter>Class diagrams</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{ba0870e3-3f39-45f1-b035-07c265515fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXUT\Core">
+      <UniqueIdentifier>{1d338227-c412-4d55-94e7-5487ed2464d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXUT\Optional">
+      <UniqueIdentifier>{4c16f4d0-a15e-4bf3-b0d5-41294c4e1dbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{d40d029d-22b6-4aef-b583-bc6b47d35fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class diagrams">
+      <UniqueIdentifier>{3fc6c8ee-f026-4fd1-9fd1-ce9e135fc04b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
