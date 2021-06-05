@@ -5,7 +5,7 @@
 **Accelerated Massive Parallelism with Microsoft Visual C++**  
 [Kate Gregory](http://www.gregcons.com/Kate.aspx) and [Ade Miller](http://ademiller.com/tech)
 
-![cover_med.png](http://download-codeplex.sec.s-msft.com/Download?ProjectName=ampbook&DownloadId=488601 "cover_med.jpg")
+![cover_med.png]("docs/Home_cover_med.jpg")
 
 Capitalize on the faster GPU processors in today’s computers with the C++ AMP code library—and bring massive parallelism to your project. With this practical book, experienced C++ developers will learn parallel programming fundamentals with C++ AMP through detailed examples, code snippets, and case studies. Learn the advantages of parallelism and get best practices for harnessing this library in your applications.  
 
